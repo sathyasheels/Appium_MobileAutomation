@@ -1,3 +1,4 @@
+
 package testsnew;
 
 import java.io.IOException;
@@ -16,12 +17,12 @@ import utils.FileUtils;
 
 public class HomePageTest extends BaseTest{
 	
-	@BeforeMethod
-	public void preRequisite() throws IOException, InterruptedException
-	{
-		driver= BaseTest.getDriver("android");
-		Thread.sleep(2000);
-		}
+//	@BeforeMethod
+//	public void preRequisite() throws IOException, InterruptedException
+//	{
+//		driver= BaseTest.getDriver("android");
+//		Thread.sleep(2000);
+//		}
 	
 	@Test(enabled=false)
 	public void checkAddingItemToCart() throws IOException {
